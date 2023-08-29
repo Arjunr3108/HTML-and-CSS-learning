@@ -1,150 +1,154 @@
 /* comment chnage 
 in body background color*/
-body{
-    background-color:green; /*change to green*/
-    opacity:0.9;
+body {
+    background-color: green;
+    /*change to green*/
+    opacity: 0.9;
     background-image: url("https://img.freepik.com/free-photo/ultra-detailed-nebula-abstract-wallpaper-4_1562-749.jpg?w=1060&t=st=1690907100~exp=1690907700~hmac=db3268192d05900b407b301c5ef3183523dbdfbb883473ee4ac1014dec4c4d3b");
-    background-position:right top;
+    background-position: right top;
 }
 
-h1{
+h1 {
     background-color: red;
-    margin-left:20px;
-    margin-top:30px;
-    padding:40px 40px 40px 40px;
-    text-align:justify;
-    text-decoration:underline purple solid 10px;
-    text-transform:capitalize;
-    text-indent:30px;
-    letter-spacing:3px;
-    font-size:2em;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 40px 40px 40px 40px;
+    text-align: justify;
+    text-decoration: underline purple solid 10px;
+    text-transform: capitalize;
+    text-indent: 30px;
+    letter-spacing: 3px;
+    font-size: 2em;
 }
 
-h3{
+h3 {
     background-color: lightblue;
-    height:50px;
-    max-width:90%;
-    text-align-last:center;
-    font-family:"lucida console","courier new", monospace;
-    font-style:italic;
-    font-weight:bold;
-} 
-
-h2{
-    margin:50px 50px 50px 50px;
-    outline-style:solid;
-    border:2px dashed gold;
-    outline-offset:10px;
+    height: 50px;
+    max-width: 90%;
+    text-align-last: center;
+    font-family: "lucida console", "courier new", monospace;
+    font-style: italic;
+    font-weight: bold;
 }
 
-h1 + b{
-    color:blue;
+h2 {
+    margin: 50px 50px 50px 50px;
+    outline-style: solid;
+    border: 2px dashed gold;
+    outline-offset: 10px;
 }
 
-div[class=test]{
-    color:lightsalmon;
+h1+b {
+    color: blue;
 }
 
-.dropdownbutton{
-    background-color:blue;
-    color:white;
-    padding:13px;
-    font-size:16px;
-    border:none;
-    cursor:pointer;
+div[class=test] {
+    color: lightsalmon;
 }
 
-.dropdown-menu{
-    position:absolute;
-    background-color:lightblue;
-    min-width:150px;
-    display:none;
+.dropdownbutton {
+    background-color: blue;
+    color: white;
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
-.dropdown-menu a{
-    color:black;
-    padding:11px 15px;
-    text-decoration:none;
-    display:block;
+.dropdown-menu {
+    position: absolute;
+    background-color: lightblue;
+    min-width: 150px;
+    display: none;
 }
 
-.dropdown-menu a:hover{
-    background-color:white;
+.dropdown-menu a {
+    color: black;
+    padding: 11px 15px;
+    text-decoration: none;
+    display: block;
 }
 
-.dropdown:hover .dropdown-menu{
-    display:block;
+.dropdown-menu a:hover {
+    background-color: white;
 }
 
-.dropdown:hover .dropdownbutton{
-    background-color:grey;
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
-.dropdown{
-    position:relative;
-    display:inline-block;
+.dropdown:hover .dropdownbutton {
+    background-color: grey;
 }
 
-table, th, td{
-    border:2px solid;
-    width:50%;
-    border-collapse:collapse;
-    display:none;
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
-th, td{
-    height:50px;
-    text-align:left;
-    padding:1px;
+table,
+th,
+td {
+    border: 2px solid;
+    width: 50%;
+    border-collapse: collapse;
+    display: none;
 }
 
-tr:hover{
-    background-color:blue;
+th,
+td {
+    height: 50px;
+    text-align: left;
+    padding: 1px;
 }
 
-s.text{
-    vertical-align:center;
+tr:hover {
+    background-color: blue;
 }
 
-a{
-    text-decoration:none;
-    color:blueviolet;
+s.text {
+    vertical-align: center;
 }
 
-#welcome{
-    background-color:red;
+a {
+    text-decoration: none;
+    color: blueviolet;
 }
 
-.heading{
-    color:blue;
+#welcome {
+    background-color: red;
 }
 
-p.heading{
-    color:blue;
+.heading {
+    color: blue;
+}
+
+p.heading {
+    color: blue;
 }
 
 * {
-    color:white;
+    color: white;
 }
 
 p {
-    margin-left:50%;
-    margin-right:10px;
-    margin-bottom:100px;
-    border-style:dotted solid dashed double;
-    border-width:5px 10px 15px 20px;
-    border-color:red white black yellow
+    margin-left: 50%;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    border-style: dotted solid dashed double;
+    border-width: 5px 10px 15px 20px;
+    border-color: red white black yellow
 }
 
-b{
-    margin:5px;
-    border-bottom:5px dashed yellow;
+b {
+    margin: 5px;
+    border-bottom: 5px dashed yellow;
 }
 
-i{
+i {
     margin: inherit;
-    border-style:outset;
-    border-radius:5px;
-    display:none;
-    visibility:hidden;
+    border-style: outset;
+    border-radius: 5px;
+    display: none;
+    visibility: hidden;
 }
