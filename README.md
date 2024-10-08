@@ -1,4 +1,5 @@
-# HTML-and-CSS-learning
-Live demo at https://arjunr3108.github.io/HTML-and-CSS-learning/
+1. Live demo at "https://arjunr3108.github.io/HTML-and-CSS-learning/".
 
-This contains HTML and CSS files that was used to code when learning "Full Stack Web Development for Beginnners" from freecodecamp.org's tutorial from youtube.
+2. This contains the HTML and CSS files used for learning full-stack development.
+
+3. The FreeCodeCamp YouTube channel's "Full Stack Web Development for Beginners" helped me create this basic website.
